@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 const Resume = ()=> {
     return(<>
      <h3 className="text-center section-title">Resume</h3>
-    <Container id='resume'>
+    <Container id='resume' className="d-flex flex-wrap justify-content-around ">
     <iframe
     height="900px"
     width="800px"
