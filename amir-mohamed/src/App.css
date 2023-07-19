@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+header{
+  background-color: rgb(190, 222, 250);
+  color: black;
+  height: 100%;
+  /* background-image: radial-gradient(red,rgb(0, 34, 255), yellow);
+   */
+}
+
+.section-title{
+  font-size: 2rem;
+  letter-spacing: 3px;
+  background-color: grey;
+  color: white;
+}
+
+.myname{
+  font-family: 'Playfair Display', serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 3rem;
+  font-style: italic;
+  width:30%;
+  letter-spacing: 3px;
+}
+.navtext{
+  font-family: 'Quicksand', sans-serif;
+
+}
+.proPic{
+  float: left;
+  margin-top: 20px;
+  overflow: hidden;
+}
+h3{
+  font-family: 'Cairo', sans-serif;
+  color:black;
+
+}
+.abouttext{
+  margin-top: 20px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: start;
+
+}
+.toggle:hover{
+color: rgb(103, 150, 150);
+}
