@@ -34,6 +34,14 @@ header{
   margin-top: 20px;
   overflow: hidden;
 }
+.homepageProPic{
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  overflow: hidden;
+  box-shadow: -55px 1px rgb(255, 255, 113);
+}
 h3{
   font-family: 'Cairo', sans-serif;
   color:black;
@@ -47,4 +55,11 @@ h3{
 }
 .toggle:hover{
 color: rgb(103, 150, 150);
+}
+.quotetext{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: x-large;
+  text-align: center;
 }
