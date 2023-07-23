@@ -9,8 +9,8 @@ const NavigationBar = ({ page, handlePageChange }) => {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container fluid>
-                <Navbar.Brand><h1 className='myname'><Nav.Link href="/"
-                    onClick={() => handlePageChange()}
+                <Navbar.Brand><h1 className='myname'><Nav.Link href="#home"
+                    onClick={() => handlePageChange("home")}
                 >Amir Mohamed</Nav.Link></h1></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" className='toggle'/>
                 <Navbar.Collapse id="navbarScroll" >
