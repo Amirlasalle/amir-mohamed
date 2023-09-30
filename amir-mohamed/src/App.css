@@ -75,4 +75,6 @@ color: rgb(103, 150, 150);
   color: white;
 }
 
-
+.resumeBtn {
+  margin: 20px;
+}
