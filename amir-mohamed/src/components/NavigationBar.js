@@ -46,15 +46,15 @@ const NavigationBar = ({ page, handlePageChange }) => {
 
 
                         <NavDropdown title="Links" id="navbarScrollingDropdown">
-                            <NavDropdown.Item href="https://www.github.com/amirlasalle" onClick={() => handlePageChange()}>
+                            <NavDropdown.Item href="https://www.github.com/amirlasalle" target="_blank" rel="noreferrer"  onClick={() => handlePageChange()}>
                                 Github
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="https://www.linkedin.com/in/amirlasalle/" onClick={() => handlePageChange()}>
+                            <NavDropdown.Item href="https://www.linkedin.com/in/amirlasalle/" target="_blank" rel="noreferrer" onClick={() => handlePageChange()}>
                                 LinkedIn
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="https://www.instagram.com/ichigo23__/" onClick={() => handlePageChange()}>
+                            <NavDropdown.Item href="https://www.instagram.com/ichigo23__/" target="_blank" rel="noreferrer"  onClick={() => handlePageChange()}>
                                 Instagram
                             </NavDropdown.Item>
                         </NavDropdown>

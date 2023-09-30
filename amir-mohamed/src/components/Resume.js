@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/Container";
-// import reume from "./resume.pdf";
-// import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
+import "../App.css"
 
 const Resume = ()=> {
     return(<>
@@ -10,9 +10,10 @@ const Resume = ()=> {
     height="900px"
     width="800px"
     title="resume"
-    src="https://docs.google.com/document/d/e/2PACX-1vT6K5Qb4fIBGjqQumFr8v1y8ZNSiWkglkWVGrJVV6TPT-OwcV2mVILUyt_RS8_dR8fS8t53dIDyGxi0/pub?embedded=true"></iframe>
-    {/* <a href={resume} download>Download Resume</a>
-    <Button variant="info"><a href={resume} download>Download Resume</a></Button> */}
+    src="https://docs.google.com/document/d/e/2PACX-1vQu9Mr-Bk95x1yRw1h2qCVxrqEXUfWSyNPkLwqZtLvgNICUR1p_2EzDeKu8bmr5EbR9xpkRTaIuvUPD/pub?embedded=true"></iframe>
+ 
+    <Button variant="info" ><a href="./amir.pdf" target="_blank" download className="btn1">Download Resume</a></Button>
+    
     </Container>
         </>)
 }
