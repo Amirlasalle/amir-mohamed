@@ -1,40 +1,63 @@
-.App {
-  text-align: center;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-header{
+@import url('https://fonts.googleapis.com/css?family=Cairo:wght@200&family=Dancing+Script&family=Playfair+Display&family=Quicksand:wght@300&display=swap');
+
+.App {
+  text-align: center;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+header {
   background-color: rgb(190, 222, 250);
   color: black;
   height: 100%;
   /* background-image: radial-gradient(red,rgb(0, 34, 255), yellow);
    */
 }
+footer {
+  background-color: rgb(255, 255, 113);
+  color: #706b6b;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  margin-bottom: 0;
+}
 
-.section-title{
+.section-title {
   font-size: 2rem;
   letter-spacing: 3px;
   background-color: grey;
   color: white;
 }
 
-.myname{
+.myname {
   font-family: 'Playfair Display', serif;
   color: rgba(0, 0, 0, 0.72);
   font-size: 2rem;
   font-style: italic;
-  width:30%;
+  width: 30%;
   letter-spacing: 3px;
 }
-.navtext{
+
+.navtext {
   font-family: 'Quicksand', sans-serif;
 
 }
-.proPic{
+
+.proPic {
   float: left;
   margin-top: 20px;
   overflow: hidden;
 }
-.homepageProPic{
+
+.homepageProPic {
   float: left;
   margin-left: 50px;
   margin-bottom: 30px;
@@ -42,21 +65,25 @@ header{
   overflow: hidden;
   box-shadow: -55px 1px rgb(255, 255, 113);
 }
-h3{
+
+h3 {
   font-family: 'Cairo', sans-serif;
-  color:black;
+  color: black;
 
 }
-.abouttext{
+
+.abouttext {
   margin-top: 20px;
   font-family: 'Quicksand', sans-serif;
   text-align: start;
 
 }
-.toggle:hover{
-color: rgb(103, 150, 150);
+
+.toggle:hover {
+  color: rgb(103, 150, 150);
 }
-.quotetext{
+
+.quotetext {
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: 'Quicksand', sans-serif;
@@ -64,10 +91,9 @@ color: rgb(103, 150, 150);
   text-align: center;
 }
 
-.btn1{
-  color: black;
+.btn1 {
+  color: white;
   text-decoration: none;
-
 }
 
 
@@ -77,4 +103,13 @@ color: rgb(103, 150, 150);
 
 .resumeBtn {
   margin: 20px;
+}
+
+.footer--pin {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.ghost{
+  display: none;
 }

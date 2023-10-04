@@ -16,7 +16,7 @@ const Resume = (handlePageChange)=> {
     src="https://docs.google.com/document/d/e/2PACX-1vQu9Mr-Bk95x1yRw1h2qCVxrqEXUfWSyNPkLwqZtLvgNICUR1p_2EzDeKu8bmr5EbR9xpkRTaIuvUPD/pub?embedded=true"></iframe>
   </Container>
   <Container className="resumeBtn">
-<Button variant="info" ><a href="./amir.pdf" target="_blank" rel="noreferrer" download className="btn1">Download Resume</a></Button></Container>
+<Button variant="primary" ><a href="./amir.pdf" target="_blank" rel="noreferrer" download className="btn1">Download Resume</a></Button></Container>
 
   
         </>)
