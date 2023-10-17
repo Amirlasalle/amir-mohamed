@@ -6,37 +6,96 @@ html, body {
 
 @import url('https://fonts.googleapis.com/css?family=Cairo:wght@200&family=Dancing+Script&family=Playfair+Display&family=Quicksand:wght@300&display=swap');
 
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.flex-column {
+  flex: 1;
+}
+
 .App {
   text-align: center;
   bottom: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; 
+  height: 100vh; 
+  padding: 0;
 }
 
-header {
-  background-color: rgb(190, 222, 250);
+.Header {
+  position: sticky !important;
+  background-color: #fff;
   color: black;
   height: 100%;
-  /* background-image: radial-gradient(red,rgb(0, 34, 255), yellow);
-   */
-}
-footer {
-  background-color: rgb(255, 255, 113);
-  color: #706b6b;
-  text-align: center;
-  padding: 10px;
-  margin-top: auto;
-  margin-bottom: 0;
+  top: 0;
+  z-index: 100;
 }
 
-.section-title {
-  font-size: 2rem;
-  letter-spacing: 3px;
-  background-color: grey;
-  color: white;
+.NavigationBar{
+  text-align: center;/* I used this to align all text within the Navigation File, use this for next time when making a Navbar*/
+  font-size: 1.3rem;
+  text-decoration: none;
+  background-color: lightblue;
+  top: 0;
+  left: 0;
+} 
+
+.navbar {
+  top: 0;
+  background-color: #d02222 !important;
+  color: black;
+  z-index: 100;
+  box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.2);
 }
 
+.mar{
+  margin-bottom: 37px;
+}
+.home{
+  left: 0 !important;
+  right: 0 !important;
+  padding: 0 !important;
+  margin-right: 0 !important;
+  overflow: hidden;
+  width: 100vw !important;
+}
+
+.custom-links-name {
+  color: #000 !important;
+} 
+.custom-links-name {
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  background-color: transparent !important;
+  font-size: 2rem !important;
+  font-style: italic;
+  color: #000 !important;
+}
+
+.custom-links-name a:hover {
+  text-decoration: none !important;
+  color: #000;
+}
+
+.custom-links {
+  color: #000 !important;
+} 
+.custom-links a {
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  background-color: transparent !important;
+  font-size: 1rem;
+
+  color: #000 !important;
+}
+
+.custom-links a:hover {
+  text-decoration: underline;
+  color: #000;
+}
 .myname {
   font-family: 'Playfair Display', serif;
   color: rgba(0, 0, 0, 0.72);
@@ -45,6 +104,71 @@ footer {
   width: 30%;
   letter-spacing: 3px;
 }
+.fa-linkedin-square {
+  color: #0077B5;
+  text-decoration: none;
+}
+.fa-github-square{
+  text-decoration: none;
+  color: #000;
+}
+.fa.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.awesome-foot{
+  float: right;
+}
+.footer {
+  width: 100%;
+  background-color: rgb(255, 255, 113);
+  color: #706b6b;
+  text-align: left;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+.footer-text {
+  color: #2d4dff;
+  text-align: left;
+  text-decoration: none;
+}
+
+.footer-text:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+/* .footer-image {
+  size: 1vw !important;
+  margin-right: 0;
+  float: right;
+  -webkit-transition: all 0.50s;
+  transition: all 0.50s;
+
+  &:hover {
+    border: none;
+    filter: brightness(105%);
+    -webkit-filter: brightness(105%);
+    -moz-filter: brightness(105%);
+    -o-filter: brightness(105%);
+    -ms-filter: brightness(105%);
+    -webkit-transition: all 0.50s;
+    transition: all 0.50s;
+  }
+} */
+
+.section-title {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  background-color: grey;
+  color: white;
+}
+
+
 
 .navtext {
   font-family: 'Quicksand', sans-serif;
@@ -112,4 +236,15 @@ h3 {
 }
 .ghost{
   display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .mar{
+    margin-bottom: 52px;
+  }
+}
+@media screen and (max-width: 314px){
+  .mar{
+    margin-bottom: 57px;
+  }
 }

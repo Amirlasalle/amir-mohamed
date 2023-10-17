@@ -1,18 +1,37 @@
 import React from 'react';
 import './App.css';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+import NavigationBar from "../src/components/NavigationBar";
 import PortfolioContainer from './pages/PortfolioContainer';
 import Footer from "../src/components/Footer";
 import Header from "../src/components/Header";
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
+import AboutMe from './components/AboutMe';
+
 
 function App() {
   return (
-    <div id='root' className="App">
+    <HashRouter > 
+     <NavigationBar />
+      <div id='root' className="flex-column justify-flex-start min-100-vh">
         <Header />
-      <div>
-        <PortfolioContainer className="main-content" />
+
+        <Routes>
+          <Route path="/" element={<PortfolioContainer />}
+          />
+          <Route path="/aboutme" element={<AboutMe />}
+          />
+          <Route path="/projects" element={<Portfolio />}
+          />
+          <Route path="/resume" element={<Resume />}
+          />
+
+        </Routes>
       </div>
-      <Footer className="w-100 mt-auto mb-0 bg-secondary p-4"/>
-    </div>
+      <Footer />
+
+    </HashRouter>
   );
 }
 

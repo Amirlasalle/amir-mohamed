@@ -1,70 +1,70 @@
 [
     {
+        "appname":"ASCO Study Center",
+        "brief":"A comprehensive application tailored for the SDPs at ASCO Power Technologies (a Schneider Electric company), designed to facilitate knowledge acquisition and information access.",
+        "screenshot":"/images/sdp-screenshot.png",
+        "deployment":"https://amirlasalle.github.io/asco-study-center/",
+        "github":"https://github.com/Amirlasalle/asco-study-center"
+    },   
+    {
         "appname":"Venture Villa App",
-        "brief":"This is an application that can be used to book a stay at a private home.",
+        "brief":"Your gateway to booking a luxurious stay at a private home, where you can experience comfort and relaxation like never before.",
         "screenshot":"/images/venture-villa-app.png",
         "deployment":"https://venture-villa-app-f0af34deb85d.herokuapp.com/",
         "github":"https://github.com/Amirlasalle/venture-villa"
     },    
     {
         "appname":"Note Taker APP",
-        "brief":"This is an application that can be used to write and save notes.",
+        "brief":"A versatile application for jotting down and saving your notes, ensuring that your important thoughts and ideas are never lost.",
         "screenshot":"/images/noteTakerApp.png",
         "deployment":"https://glacial-cliffs-13260.herokuapp.com/",
         "github":"https://github.com/Amirlasalle/express.js-note-taker"
     },
     {
         "appname":"Group Awesome's Movie Generator",
-        "brief":"This application allows the user to get info on select movies and can check if a movie is currently playing in nearby theaters and it will display its showtimes.",
+        "brief":"Discover the world of cinema with ease. This app empowers you to access information on your favorite movies, check nearby theaters, and access showtime schedules.",
         "screenshot":"/images/groupAwesomeMovieApp.png",
         "deployment":"https://pvlln.github.io/project1-group-awesome/",
         "github":"https://github.com/pvlln/project1-group-awesome"
     },
     {
         "appname":"Mealy App",
-        "brief":"This is an application that allows users to be more organized, and schedule their meals weekly.",
+        "brief":"Stay organized and plan your meals efficiently with the Mealy App. Simplify your weekly meal scheduling for a stress-free dining experience.",
         "screenshot":"/images/mealyApp.png",
         "deployment":"https://mealy-app-dcae3e02089d.herokuapp.com/login",
         "github":"https://github.com/erikchiodo/weekly-meal-planner-project"
     },
     {
-        "appname":"ASCO SDP Testing Center",
-        "brief":"This is the ASCO SDP testing center. This project currently has three sections. Which, consists of a study review section, and Two POP-Quizes.",
-        "screenshot":"/images/ascoTestCenter.png",
-        "deployment":"https://amirlasalle.github.io/ASCO_test-center/",
-        "github":"https://github.com/Amirlasalle/ASCO_test-center"
-    },
-    {
         "appname":"Weather Dashboard",
-        "brief":"By using a third-party API, I built a weather dashboard that will run in the browser and show real time weather conditions for all Major and some minor cities.",
+        "brief":"Experience real-time weather updates for major and minor cities with this weather dashboard, powered by a third-party API.",
         "screenshot":"/images/weatherApp.png",
         "deployment":"https://amirlasalle.github.io/weather_dashboard/",
         "github":"https://github.com/Amirlasalle/weather_dashboard"
     },
     {
         "appname":"HTML Portfolio",
-        "brief":"This is my portfolio that was created using HTML and CSS.",
+        "brief":"Explore a beautifully designed portfolio created using HTML and CSS, showcasing a range of skills and projects. first portfolio ever made!",
         "screenshot":"/images/htmlPortfolio.png",
         "deployment":"https://amirlasalle.github.io/Amirs_Portfolio/",
         "github":"https://github.com/Amirlasalle/Amirs_PortfolioLinks/"
     },
     {
         "appname":"Password Generator",
-        "brief":"This is an application that an employee can use to generate a random password based on criteria they've selected.",
+        "brief":"An essential tool for generating strong, randomized passwords. Ideal for employees seeking secure password creation.",
         "screenshot":"/images/passwordGenerator.png",
         "deployment":"https://amirlasalle.github.io/password_generator/",
         "github":"https://github.com/Amirlasalle/password_generator"
     },
     {
         "appname":"Code Quiz",
-        "brief":"This is an application that allows users to take a timed quiz, and allowing the user to save their score into the local storage.",
+        "brief":"Test your knowledge with a timed quiz, save your score, and challenge yourself while brushing up on web development trivia.",
         "screenshot":"/images/codeQuiz.png",
         "deployment":"https://amirlasalle.github.io/web-apis_code-quiz/",
         "github":"https://github.com/Amirlasalle/web-apis_code-quiz"
     },
     {
         "appname":"Work Day Scheduler",
-        "brief":"This is an application is a simple calendar application that allows a user to save events for each hour of a typical working day (9am–5pm).",
+        "brief":"Simplify your day with this user-friendly calendar app. Plan and save events for each working hour from 9 am to 5 pm, boosting your productivity.",
         "screenshot":"/images/workDayScheduler.png",
         "deployment":"https://amirlasalle.github.io/work_scheduler/",
         "github":"https://github.com/Amirlasalle/work_scheduler"
